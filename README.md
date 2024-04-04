@@ -1,5 +1,5 @@
 <h1 align="center"> Cancer Article Classifier </h1>
-![2-grama de  Lung_Cancer](https://github.com/MauricioAguasFonseca/Cancer-Article-Classifier/assets/104111028/78c298d1-04c1-4751-8acd-95aa1607a8ef.png)
+![2-grama de  Lung_Cancer](https://github.com/MauricioAguasFonseca/Cancer-Article-Classifier/assets/104111028/78c298d1-04c1-4751-8acd-95aa1607a8ef)
 
 The present project aimed to develop a classifier for medical articles that determines whether a article falls into one of the following three categories:
 1. Colon Cancer
