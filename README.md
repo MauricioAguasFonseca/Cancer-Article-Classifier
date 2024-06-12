@@ -47,6 +47,10 @@ imbalance in the length of the corresponding texts.
 
 Creating word clouds for each category in unigrams, bigrams, trigrams, and tetragrams provided insights. Trigrams ( Figures 4, 5 and 6) revealed references to copyrights, licenses, and journals. This, along with disparities in word counts, suggests that the thyroid and colon datasets might stem from a source encompassing copyright-related content.
 ![Colon](https://github.com/MauricioAguasFonseca/Cancer-Article-Classifier/assets/104111028/cd51b25f-564e-4eb4-834e-a402f4d2ce6b)
-
+To confirm differences between colon and thyroid categories against lung cancer, we processed the text using Spacy, reduced dimensionality with TSNE, and visualized the data with Plotly.
+![TSNE](https://github.com/MauricioAguasFonseca/Cancer-Article-Classifier/assets/104111028/b7943658-5a25-4298-8dea-0c1101fc102b){holaxd}
+Indeed, as shown in the Figure, the data on lung cancer data markedly differs from the other categories. This poses a challenge: any model trained might learn to classify based on volume rather than specific lung cancer features. Consequently, the model might predict lung cancer accurately but struggle to generalize with data not present in the data frame.
+<h3>Data Cleasing </h3>
+A notable disparity is observed in the length of lung cancer data compared to the other two categories. To address this, we restricted the word count to 2500, where the lung cancer graph declines, as depicted in . Our updated graph is shown in Figure \ref{curvas2}.
 
 
